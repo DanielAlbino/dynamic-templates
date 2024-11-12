@@ -1,0 +1,29 @@
+How to execute the Application.
+
+## Intall the package:
+
+npm install
+
+## Once the installation is completed, run the following to start the project:
+
+npm run start
+
+
+
+# Architecture
+
+I'm using a modular React architecture with a component-based design, which is a common and effective structure for React applications. React applications typically follow a component-based architecture, where each file/folder structure reflects a UI component or a set of related components.
+
+
+# Good practices
+
+Since I'm working with React/Typescript was necessary to make sure that every variable and function has its own type/interface, this way we can meke sure that the variable/function will only receive the correct parameters.
+
+Added some comments when necessary, this helps understand the code.
+
+Clean code - meaning that the code is understandable at first look.
+
+
+# Bad practice
+
+In the project I'm adding the styles-in-line, means that I'm adding the style of a component in the component itself instead of creating a css file and call it as a class. but since this is a very small project, I let this one pass, but I know that in every project we must have things organized and splitted, add the css on the css file and called the necessary classes.
